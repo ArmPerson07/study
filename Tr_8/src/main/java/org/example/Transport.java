@@ -6,11 +6,11 @@ public class Transport {
     public String color;
     public byte[] coordinate;
 
-    public void setValues(float _speed, int _weight, String _color, byte[] _coordinate) {
-        speed = _speed;
-        weight = _weight;
-        color = _color;
-        coordinate = _coordinate;
+    public void setValues(float bspeed, int bweight, String bcolor, byte[] bcoordinate) {
+        speed = bspeed;
+        weight = bweight;
+        color = bcolor;
+        coordinate = bcoordinate;
 
 
     }
