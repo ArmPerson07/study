@@ -1,19 +1,27 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //Массивы данных
+        int[] numbers = new int[5];
+        numbers[0] = 11;
+        numbers[1] = 12;
+        numbers[2] = 13;
+        numbers[3] = 14;
+        numbers[4] = 15;
+        int res = numbers[2] + numbers[3];
+        // System.out.println(numbers[0]);
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        float[] numbers2 = new float[]{5.0f, 6.45f, 34.3423f};
+        // System.out.println(numbers2[1]);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        for (int i = 0; i < numbers2.length; i++) {
+
+            System.out.println("element" + numbers2[i]);
+
         }
     }
 }
